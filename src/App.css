@@ -11,7 +11,28 @@
   padding: 10px;
   border-bottom: 1px solid lightgray;
   background: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky !important;
+  z-index: 1;
+  top: 0;
 }
 .app__header__img {
   object-fit: contain;
+}
+
+.app__signup {
+  display: flex;
+  flex-direction: column;
+}
+
+.app__post {
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.app__post__right {
+  margin-left: 10px;
 }
